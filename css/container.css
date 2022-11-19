@@ -1,0 +1,48 @@
+.container {
+    overflow-x: auto;
+}
+
+.container__table {
+    border-collapse: collapse;
+}
+
+.container__caption {
+    font-size: 25px;
+    border: 2px solid #4e5766;
+    border-width: 2px 2px 0;
+    background-color: #c5982e;
+    color: #100F0F;
+}
+
+.container__tableCell {
+    border: 2px solid #1b1e24;
+    text-align: center;
+    padding: 3px;
+
+}
+
+.container__tableHeader {
+    background-color: #FFD369;
+    color: #100F0F;
+    font-weight: normal;
+}
+
+.container__tableRow:nth-child(even) {
+    background-color: #586377;
+}
+
+.container__link:visited {
+    color: inherit;
+}
+
+.container__link:hover {
+    color: #8b0000
+}
+
+.container__img {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 15px;
+    border: 2px outset #808080;
+    box-shadow: 4px 4px 20px -8px white;
+}

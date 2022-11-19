@@ -1,0 +1,10 @@
+.article__subSubHeader {
+    border-bottom: 1px solid #414141;
+    border-top: 1px solid #414141;
+
+}
+
+.article__listCaption {
+    font-size: 25px;
+    border-bottom: 1px solid #808080
+}

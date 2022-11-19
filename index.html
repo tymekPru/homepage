@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Tymek Pruszkowski</title>
+</head>
+
+<body class="body js-body">
+    <header class="header">
+        <h1>Tymek Pruszkowski</h1>
+    </header>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#O-mnie">O mnie</a></li>
+            <li class="nav__item"><a class="nav__link" href="#Moje-zainteresowania">Moje zainteresowania</a></li>
+            <li class="nav__item"><a class="nav__link" href="#Ulubione-sporty">Ulubione sporty</a></li>
+            <li class="nav__item">
+                <button class="nav__button js-themeButton">Zmień na <span
+                        class="js-themeName">jasny</span>motyw</button>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 class="main__subHeader" id="O-mnie">O mnie</h2>
+        <p>
+            Jestem Tymek. Mam 17 lat i chodzę do liceum w Warszawie. Jestem w klasie maturalnej. Przedmioty które
+            rozszerzam to matematyka, geografia
+            i język angielski. W wolnym czasie przerabiam kurs <span>You</span><span>Code</span> albo robię coś z
+            kręgu moich zainteresowań.
+        </p>
+
+        <article>
+            <h2 class="main__subHeader" id="Moje-zainteresowania">Moje zainteresowania</h2>
+            <h3 class="article__subSubHeader">Filmy i seriale</h3>
+            <p>Od dłuższego czasu regularnie pochłaniam duże ilości filmów i seriali. Lubię oglądać nowości, ale
+                staram się też nadrabiać klasyki. Poniżej przedstawiam listę 5 ulubionych seriali w kolejności od
+                najlepszego do najgorszego wraz ze szczegółami.
+            </p>
+
+            <div class="container">
+                <table class="container__table">
+                    <caption class="container__caption">Top 5 seriali</caption>
+                    <tr class="container__tableRow">
+                        <th class="container__tableCell container__tableHeader">Pozycja</th>
+                        <th class="container__tableCell container__tableHeader">Nazwa</th>
+                        <th class="container__tableCell container__tableHeader">Początek emisji</th>
+                        <th class="container__tableCell container__tableHeader">Twórca/cy</th>
+                        <th class="container__tableCell container__tableHeader">Kraj</th>
+                        <th class="container__tableCell container__tableHeader">Link do artykułu na Filmweb'ie(otworzy
+                            się w nowej karcie)
+                        </th>
+
+                    </tr>
+                    <tr class="container__tableRow">
+                        <th class="container__tableCell container__tableHeader">1</th>
+                        <td class="container__tableCell">Breaking Bad</td>
+                        <td class="container__tableCell">2008</td>
+                        <td class="container__tableCell">Vince Gilligan</td>
+                        <td class="container__tableCell">USA</td>
+                        <td class="container__tableCell"><a class="container__link" target="_blank"
+                                href="https://www.filmweb.pl/serial/Breaking+Bad-2008-430668" rel="noreferrer noopener"
+                                title="Breaking Bad na Filmweb'ie">Breaking Bad na
+                                Filmweb</a></td>
+                    </tr>
+                    <tr class="container__tableRow">
+                        <th class="container__tableCell container__tableHeader">2</th>
+                        <td class="container__tableCell">Peaky Blinders</td>
+                        <td class="container__tableCell">2013</td>
+                        <td class="container__tableCell">Steven Knight</td>
+                        <td class="container__tableCell">Wielka Brytania</td>
+                        <td class="container__tableCell"><a class="container__link" target="_blank"
+                                href="https://www.filmweb.pl/serial/Peaky+Blinders-2013-680981"
+                                rel="noreferrer noopener" title="Peaky Blinders na Filmweb'ie">Peaky Blinders na
+                                Filmweb</a></td>
+                    </tr>
+                    <tr class="container__tableRow">
+                        <th class="container__tableCell container__tableHeader">3</th>
+                        <td class="container__tableCell">Better Call Saul</td>
+                        <td class="container__tableCell">2015</td>
+                        <td class="container__tableCell">Vince Gilligan, Peter Gould</td>
+                        <td class="container__tableCell">USA</td>
+                        <td class="container__tableCell"><a class="container__link" target="_blank"
+                                href="https://www.filmweb.pl/serial/Zadzwo%C5%84+do+Saula-2015-697645"
+                                rel="noreferrer noopener" title="Better Call Saul na Filmweb'ie">Better Call Saul na
+                                Filmweb</a></td>
+                    </tr>
+                    <tr class="container__tableRow">
+                        <th class="container__tableCell container__tableHeader">4</th>
+                        <td class="container__tableCell">Dark</td>
+                        <td class="container__tableCell">2017</td>
+                        <td class="container__tableCell">Baran bo Odar, Jantje Friese</td>
+                        <td class="container__tableCell">Niemcy</td>
+                        <td class="container__tableCell"><a class="container__link" target="_blank"
+                                href="https://www.filmweb.pl/serial/Dark-2017-771383" rel="noreferrer noopener"
+                                title="Dark na Filmweb'ie">Dark na
+                                Filmweb</a></td>
+                    </tr>
+                    <tr class="container__tableRow">
+                        <th class="container__tableCell container__tableHeader">5</th>
+                        <td class="container__tableCell">Chłopaki z baraków</td>
+                        <td class="container__tableCell">2001</td>
+                        <td class="container__tableCell">Mike Clattenburg</td>
+                        <td class="container__tableCell">Kanada</td>
+                        <td class="container__tableCell"><a class="container__link" target="_blank"
+                                href="https://www.filmweb.pl/serial/Ch%C5%82opaki+z+barak%C3%B3w-2001-134084"
+                                rel="noreferrer noopener" title="Chłopaki z baraków na Filmweb'ie">Chłopaki z
+                                baraków na
+                                Filmweb</a></td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </article>
+
+        <article>
+            <h3 class="article__subSubHeader">Gry</h3>
+            <p>Od dziecka dużo grałem w gry. We wcześniejszych latach podczas wakacji potrafiłem siedzieć po
+                kilkanaście godzin dziennie przed grami. Teraz nie mam aż tyle czasu ani chęci ale znajduje
+                codziennie godzinę lub dwie aby zagrać. Generalnie wolę gry <i>multiplayer</i> jednak zdarza mi się
+                ograć ciekawe tytuły jednoosobowe.</p>
+            <ul><span class="article__listCaption">Gry, w które najczęściej gram:</span>
+                <li>League of Legends</li>
+                <li>Overwatch 2</li>
+                <li>CS:GO</li>
+            </ul>
+        </article>
+
+        <h2 class="main__subHeader" id="Ulubione-sporty">Ulubione sporty</h2>
+        <p>Podstawą w moim życiu jest trzymanie się planu. Trzy razy w tygodniu chodzę na <strong>siłownię</strong>
+            i dwa razy na
+            <strong>basen</strong>. Pilnuję się aby nie opuszczać tych dni. Oprócz tego lubię wyjść na
+            <strong>rower</strong> albo <strong>pobiegać</strong>.
+        </p>
+        <div class="container">
+            <img class="container__img" src="images/gym.jpg" alt="zdjęcie siłowni">
+        </div>
+        <div class="container">
+            <img class="container__img" src="images/swimming_pool.jpg" alt="zdjęcie basenu">
+        </div>
+        <div class="container">
+            <img class="container__img" src="images/bike.jpg" alt="zdjęcie jazdy na rowerze">
+        </div>
+        <div class="container">
+            <img class="container__img" src="images/running.jpg" alt="zdjęcie biegania">
+        </div>
+    </main>
+
+    <footer class="footer">© Copyright 2022 Tymek Pruszkowski</footer>
+</body>
+
+</html>
